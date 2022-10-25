@@ -1,0 +1,88 @@
+.list{
+    list-style-image: url('./2419.png');
+    width: 200px;
+    padding: 200px;
+}
+
+.head{
+    background-color: red;
+    color:white;
+}
+
+table td{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+table tr:nth-child(odd) td{
+    background-color: grey;
+}
+
+.body:hover{
+    background-color: yellow;
+}
+
+ 
+
+ 
+form{
+    padding-top: 20px;
+    background-color: blue;
+    width: 380px;
+    height: 480px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(215, 214, 214);
+}
+
+input[type=text]{
+    cursor: pointer;
+    width:180px;
+    height: 25px;
+    border-radius: 8px;
+    border: 0px;
+    -webkit-box-shadow: 0px 0px 28px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 28px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 28px -4px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    width:185px;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+    background-color: red; 
+    border: 0px; 
+
+}
+
+label{
+    display: inline-block;
+    text-align: left;
+    width: 180px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.cont{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+form p{
+    font-size: 40px;
+    color: rgb(0, 0, 216);
+}
+
+form span{
+    font-size: 40px;
+    color: yellow;
+}
+
+.container{
+    margin-top: 150px;
+}

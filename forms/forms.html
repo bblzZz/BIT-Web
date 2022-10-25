@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <p>Login</p>
+    <form action="">
+        <label for="name">Username</label>
+        <input type="text" name="name" id="name" placeholder="username">
+        <br>
+        <label for="passowrd">Password</label>
+        <input type="password" name="passowrd" id="password" placeholder="password">
+        <br>
+        <a href="./resetPassword.html">forgot passoword</a>
+    </form>
+
+
+    <br>
+    <p>TextArea/Radio/Checkbox</p>
+    <form action="">
+        <p>8*7=?</p>
+        <label for="answer1">56</label>
+        <input type="radio" id="answer1" name="answer">
+        <label for="answer2">49</label>
+        <input type="radio" name="answer" id="answer2">
+        <label for="answer3">32</label>
+        <input type="radio" name="answer" id="answer3">
+        <br>
+        <br>
+
+        <p>Some question?</p>
+        <label for="asnw">11</label>
+        <input type="radio" name="1" id="asnw">
+        <label for="answ2">22</label>
+        <input type="radio" name="1" id="answ2">
+        <label for="answ3">33</label>
+        <input type="radio" name="2" id="answ3">
+        <label for="answ333">44</label>
+        <input type="radio" name="2" id="answ333">
+    </form>
+
+
+    <p>Dropdown multiselect</p>
+    <label for="day">Select day:</label>
+    <select name="day" id="day">
+        <option value="ddd">Monday</option>
+        <option value="ddd">Tuesday</option>
+        <option value="ddd">Wednesday</option>
+        <option value="">Thursday</option>
+        <option value="">Friday</option>
+        <option value="">Saturday</option>
+        <option value="">Sunday</option>
+    </select>
+    <br>
+    <label for="month">Select month:</label>
+    <select name="month" id="month">
+        <option value="">January</option>
+        <option value="">February</option>
+        <option value="">Mart</option>
+        <option value="">April</option>
+        <option value="">May</option>
+        <option value="">Jun</option>
+        <option value="">July</option>
+        <option value="">Avgust</option>
+        <option value="">September</option>
+        <option value="">October</option>
+        <option value="">November</option>
+        <option value="">December</option>
+    </select>
+
+    <br>
+    <label for="year">Select year:</label>
+    <select name="year" id="year">
+        <option value="">2022</option>
+        <option value="">2021</option>
+        <option value="">2019</option>
+    </select>
+
+    <br>
+    <label for="category">Categories:</label>
+    <select name="categories" id="category" multiple>
+        <option value="">Cars</option>
+        <option value="">Bikes</option>
+        <option value="">Skateboards</option>
+    </select>
+
+    <br>
+    <p>Then vs Now</p>
+    <form action="./handle-upload.html" method="get">
+        <label for="img1">Then</label>
+        <input type="file" id="img1" name="img1">
+        <textarea name="comm1" id="comm1" cols="3" rows="3">comment1</textarea>
+        <label for="img2">Now</label>
+        <input type="file" name="img2" id="img2">
+        <textarea name="comm2" id="comm2" cols="3" rows="3">comment2</textarea>
+          
+        <input type="submit" value="send">
+        
+    </form>
+
+    <form action="">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <label for="d">Something</label>
+        <input type="text" id="d">
+        <label for="rd">radio button</label>
+        <input type="radio" id="rd">
+    </form>
+
+    <form action="">
+        <p>Personal data</p>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <label for="email">email</label>
+        <input type="text" name="email" id="email">
+        <label for="num">Number</label>
+        <input type="text" name="num" id="num">
+
+        <br>
+        <br>
+        <p>Location</p>
+        <label for="city">City</label>
+        <input type="text" id="city">
+        <label for="street">Street</label>
+        <input type="text" name="street" id="street">
+        <label for="sn">Street number</label>
+        <input type="text" name="sn" id="sn">
+
+
+        <br>
+        <br>
+
+        <p>Event info</p>
+        <select name="option" id="option" >
+            <option value="birthday">birthday</option>
+            <option value="wedding" selected>wedding</option>
+            <option value="company">company</option>
+        </select>
+        <label for="guest">guests</label>
+        <input type="number" id="guest" placeholder="100+">
+
+    </form>
+
+
+    <form action="">
+        <label for="name">name</label>
+        <input type="text" name="name" id="name" required placeholder="ilija">
+        <input type="date">
+        <label for="url">url</label>
+        <input type="url" name="url" id="url" placeholder="https://example.com">
+        <label for="email">email</label>
+        <input type="text" name="email" id="email" placeholder="ddd@gmail.com">
+        <input type="submit"> 
+    </form>
+
+
+</body>
+</html>

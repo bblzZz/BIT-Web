@@ -1,0 +1,38 @@
+.nav{
+    box-sizing: border-box;
+    color:white;
+    background-color: red;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width:960px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.nav>li{
+    display: inline;
+    margin-left: 25px;
+    margin-right: 20px;
+    
+}
+
+.cont{
+    width:960px;
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.elem{
+    margin-bottom: 200px;
+    width: 300px;
+    height: 200px;
+     
+     
+}
+
+.tekst{
+    text-align: left;
+}

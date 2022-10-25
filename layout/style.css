@@ -1,0 +1,132 @@
+ *{
+    padding: 0;
+    margin: 0;
+    border: 0;
+ }
+ 
+.main{
+     
+}
+
+ 
+
+.container>img{
+    position: relative;
+    border:1px solid green; 
+    top: 50px;
+    left: 100px;
+    margin-bottom: 50px;
+
+}
+
+.cont2{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+ 
+
+.con3{
+    
+}
+
+.cont3 a{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+.child1{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+}
+
+
+.child2{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+}
+
+.child3{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+
+.child4{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+}
+
+
+.child5{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+
+
+.child6{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+
+.newcont2{
+    position: relative;
+    width: 100%;
+}
+ 
+
+.child7{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    position: absolute;
+    right: 0px;
+    z-index: 2;
+}
+
+.child8{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: absolute;
+    right: 100px;
+    top:100px;
+    z-index: 1;
+}
+
+
+.child9{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    position: absolute;
+    right: 200px;
+    top:200px
+}
+
+.nav{
+    background-color: red;
+    color: white;
+    width: 960px;
+    border:1px solid black;
+    
+
+}
+
+.nesto{
+    border: 1px solid black;
+}
+ 
