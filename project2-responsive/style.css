@@ -1,0 +1,348 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     
+    
+}
+.container{
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+.first{
+    background-image: url(./images/banner3.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 80vw;
+}
+.menu{
+     
+    display: flex;
+    padding-top: 10px;
+
+}
+
+.menu ul{
+    margin-right: 150px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.logo{
+    flex-grow: 1;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.naslov{
+     
+    color: orange;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.naslov2{
+    color: white;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    color: white;
+    font-size: 28px;
+     
+    
+}
+
+button{
+    border: 0px;
+    margin-top: 15px;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(0, 89, 255);
+}
+
+
+.whowe{
+    width: 80vw;
+    margin-bottom: 100px;
+    display: flex;
+    
+}
+
+.text2{
+    padding-left: 25px;
+}
+ 
+.who{
+    font-size: 25px;
+    font-weight: bold;
+}
+.slika{
+    background-image: url(./images/about.jpg);
+    width: 450px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size:contain;
+     
+}
+
+.head{
+    color: rgb(0, 89, 255);
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.subhead{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+
+.text1 li{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.text2 li{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.border {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    height: 2px;
+    width: 130px;
+    border-top: 1px solid black;
+}
+
+.square {
+    height: 15px;
+    width: 15px;
+    border: 2px solid black;
+    transform: rotate(50deg);
+    margin: 0 10px;
+}
+
+.people{
+    display: flex;
+    
+     
+}
+
+.humans{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom:50px ;
+    width: 350px;
+    height: 180px;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    flex-wrap: wrap;
+}
+.humans img{
+    margin-left: 10px;
+    border: white 2px solid;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.name{
+    padding: 10px;
+}
+
+.name p{
+     color: black;
+     font-size: 20px;
+     font-weight: bold;
+      
+}
+
+
+.contact{
+    display:flex;
+    margin-top: 20px;
+}
+
+.box1{
+    
+    width: 250px;
+    height: 150px;
+    background-color: green;
+    color:white
+}
+
+.box2{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(255, 0, 98);
+    color:white
+}
+
+.box3{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(0, 89, 255);
+    color:white
+}
+
+.box4>img{
+    margin-left: 55px;
+    width: 150px;
+    height: 150px;
+    color:white
+}
+
+.box4{
+    background-color: aqua;
+    width: 250px;
+    height: 150px;
+}
+
+.framee{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 50px;
+}
+input[type=submit]{
+    background-color: orange;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 0px;
+}
+
+.mail>input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 0px;
+}
+
+.mail>textarea{
+    width: 610px;
+    margin-left: 2px;
+}
+
+footer{
+    background-color: rgb(58, 58, 58);
+    margin-top: 50px;
+    width: 80vw;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+footer span{
+    
+    padding: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .menu {
+        display: flex;
+        padding-top: 10px;
+        flex-direction: column;
+         
+    }
+
+    .logo{
+        text-align: center;
+    }
+     
+
+    nav>ul{
+        display: flex;
+        align-items: center;
+        background-color: rgb(0, 196, 196);
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 150px; 
+    }
+
+    .who{
+        margin-top: 35px;
+    }
+
+    .whowe{
+         
+        width: 80vw;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
+    }
+
+    .slika{
+        width: 700px;
+        height: 600px;
+    }
+
+    .text2{
+        margin-top: 25px;
+        padding: 0;
+    }
+    
+    .people {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact{
+        padding-left: 100px;
+        padding-right: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mail{
+        display: flex;
+        display: flex;
+        flex-direction: column;
+         
+    }
+
+    .mail>textarea {
+        width: 595px;
+        margin-left: 2px;
+    
+    }
+
+    .text>p{
+        margin-left:10px;
+    }
+
+}
