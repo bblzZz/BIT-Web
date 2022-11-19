@@ -189,6 +189,7 @@ button{
 .contact{
     display:flex;
     margin-top: 20px;
+    
 }
 
 .box1{
@@ -196,21 +197,56 @@ button{
     width: 250px;
     height: 150px;
     background-color: green;
-    color:white
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+.phone{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.phone>img{
+    width: 20px;
+    height: 20px;
+}
+
+
+ 
 .box2{
     width: 250px;
     height: 150px;
     background-color: rgb(255, 0, 98);
-    color:white
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2>span>img{
+    padding: 4px;
+    width: 20px;
+    
 }
 
 .box3{
     width: 250px;
     height: 150px;
     background-color: rgb(0, 89, 255);
-    color:white
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .box4>img{
@@ -268,7 +304,7 @@ footer span{
     padding: 10px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 400px) and (max-width: 767px) {
 
     .menu {
         display: flex;
@@ -297,17 +333,24 @@ footer span{
 
     .whowe{
          
-        width: 80vw;
+         
         margin-bottom: 100px;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         align-content: center;
 
     }
+    
+    .text1{
+        width: 600px;
+         
+    }
 
     .slika{
-        width: 700px;
-        height: 600px;
+
+        height: 400px;
+        width: 500px;
     }
 
     .text2{
@@ -321,15 +364,12 @@ footer span{
     }
 
     .contact{
-        padding-left: 100px;
-        padding-right: 100px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .mail{
-        display: flex;
         display: flex;
         flex-direction: column;
          
@@ -345,4 +385,110 @@ footer span{
         margin-left:10px;
     }
 
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    .menu ul {
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .who{
+        margin-top: 20px;
+    }
+
+    nav>ul li{
+        font-size: 15px;
+        padding-right: 2px;
+    }
+
+    .text>p{
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .logo{
+        flex-grow: 1;
+        padding-left: 30px;
+        font-size: 30px;
+    }
+
+    .whowe{
+        width: 80vw;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text1{
+        padding-top: 50px;
+        width: 250px;
+        height: 50px;
+
+         
+    }
+
+    .slika{
+        margin-bottom: 50px;
+        margin-left: 350px;
+        margin-top: -50px;
+         
+    }
+
+    .text2{
+        padding-left: 0px;
+    }
+
+    .people {
+        margin-top:20px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .humans {
+        display: flex;
+        /* padding: 20px; */
+        margin-bottom: 0px;
+         
+        width: 350px;
+        height: 180px;
+        background-color: rgb(0, 89, 255);
+        color: white;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+
+    .box1 {
+        width: 350px;
+        height: 200px;
+        background-color: green;
+        color: white;
+    }
+
+    .box2 {
+        width: 350px;
+        height: 200px;
+        background-color: rgb(255, 0, 98);
+        color: white;
+    }
+
+    .box3 {
+        width: 350px;
+        height: 200px;
+        background-color: rgb(0, 89, 255);
+        color: white;
+    }
+
+    .box4 {
+        background-color: aqua;
+        width: 350px;
+        height: 200px;
+    }
+    
 }
