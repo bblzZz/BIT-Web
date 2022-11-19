@@ -471,6 +471,7 @@ footer span{
         justify-content: flex-start;
         flex-wrap: wrap;
         align-items: center;
+        width: 80vw;
     }
     .humans {
         display: flex;
