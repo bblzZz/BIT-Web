@@ -5,3 +5,16 @@
 .active{
     background-color: grey;
 }
+
+.first{
+    border:1px solid yellow;
+}
+
+.last{
+    border:1px solid green;
+}
+
+input:required{
+    border:1px solid red;
+    
+}

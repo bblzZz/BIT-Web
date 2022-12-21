@@ -62,10 +62,34 @@ function access(text){
 
 //InnerHTML
 
-function dropdown(){
-    var x = document.getElementById("mySelect");
-    var option = document.createElement("option");
-    option.text = "Kiwi";
-    x.add(option);
+function dropdown(array){
+    var first = document.querySelector('.first');
+    var last = document.querySelector('.last');
+    var select = document.querySelector('#firstSelect');
+    var select2 = document.querySelector('#secondSelect')
+    for(var i =0;i<array.length;i++){
+        var opt = document.createElement('option');
+        opt.value = i;
+        opt.innerHTML = array[i];
+        select.appendChild(opt)
+    }
+    first.appendChild(select)
+    last.appendChild(select2)
+
+
 }
-dropdown()
+//dropdown(['apple','peach','mango'])
+
+ 
+function inputs(){
+    var select = document.createElement("select");
+    select.innerText=
+    document.body.appendChild(select)
+
+    var option = document.createElement("option");
+    option.value = 'dddd';
+    option.text ='aaaa';
+    document.body.appendChild(option);
+}
+
+inputs()
